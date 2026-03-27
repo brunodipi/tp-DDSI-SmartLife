@@ -2,7 +2,7 @@ package org.example;
 
 public class Cliente{
     Plan plan;
-    double tarifa;
+    double tarifaPersonalizada;
     double cantDispositivos;
 
     public Plan plan() {
@@ -10,7 +10,7 @@ public class Cliente{
     }
 
     public double getTarifa(){
-        return tarifa;
+        return tarifaPersonalizada;
     }
 
     public double getDispositivos(){
@@ -23,7 +23,7 @@ public class Cliente{
     }
 
     public void setTarifa(double nuevaTarifa) {
-        this.tarifa = nuevaTarifa;
+        this.tarifaPersonalizada = nuevaTarifa;
     }
 
     public void setCantDispositivos(double cant) {
