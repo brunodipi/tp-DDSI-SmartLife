@@ -4,7 +4,7 @@ public class FacturaMensual{
     Cliente cliente;
 
     public double calcularMonto(){
-        return cliente.plan().calcularMonto(cliente);
+        return cliente.getPlan().calcularMonto(cliente);
     }
 
     public void setCliente(Cliente nuevoCliente) {
